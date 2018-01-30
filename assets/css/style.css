@@ -1,0 +1,253 @@
+
+html, body {
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0;
+
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(assets/images/balen2.jpg);
+  padding: 0;
+  margin: 0;
+  background-color: rgb(234,216,199);
+}
+
+.row{
+  display: flex;
+  box-sizing: border-box;
+}
+.row > div{
+  box-sizing: border-box;
+}
+.col50 > div{
+  width: 50%;
+}
+.col33 > div{
+  width: 33.333333333%;
+}
+
+.col50 > div:nth-child(1){
+  margin-right: 6px;
+
+}
+.col50 > div:nth-child(2){
+  margin-left: 6px;
+  margin-top: 10rem;
+}
+.col33 > div:nth-child(1){
+  margin-right: 8px;
+}
+.col33 > div:nth-child(2){
+  margin-left: 4px;
+  margin-right: 8px;
+}
+.col33 > div:nth-child(3){
+  margin-left: 4px;
+}
+
+
+ #homesection img{
+  max-width: 80%
+}
+
+#homesection{
+  padding-bottom: 500px;
+  background-color: rgb(234,216,199);
+}
+img{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+h1 {
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navigation {
+    background-color: #292929;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    min-width: 100%;
+    position: fixed;
+    height: 50px;
+    top: 0;
+    z-index: 1;
+    color: rgb(234,216,199);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.navigation a {
+    float: right;
+    color: rgb(234,216,199);
+    padding: 12px 50px 0px 0px;
+    text-decoration: none;
+}
+
+.navigation span {
+  float: left;
+  padding: 10px;
+}
+
+.about > div > div > img{
+  padding-top: 1.25em;
+  height: 12.5em;
+  width: 12.5em;
+}
+
+/* can be adjusted to fit your screen */
+#aboutsection{
+  padding-top: 15rem;
+  padding-bottom: 10rem;
+  height: 1000px;
+}
+
+.about{
+  text-align: center;
+  margin: auto;
+
+}
+
+.why, .who, .where{
+  padding: 0 3rem;
+}
+
+/* Can be adjusted to fit your screen */
+.port{
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+.portfolio > div{
+  min-width: 6.25em;
+  min-height: 6.25em;
+}
+
+#portfoliosection{
+  height: 1000px;
+}
+
+.portfolio > div > a > img{
+  width: 26em;
+
+}
+
+.about h3, i{
+  display: inline-block;
+}
+
+.fa#whoicon, .fa#whyicon, .fa#whereicon{
+  color: black;
+  font-size: 1.1rem;
+  margin-right: -1.2rem;
+}
+
+footer {
+  background-color: #292929;
+  color: rgb(234,216,199);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 4.5em;
+  font-weight: bolder;
+}
+
+
+.fa {
+  padding-top: 1.25em;
+  color:rgb(234,216,199);
+  width: 3.125em;
+  text-decoration: none;
+}
+
+.fa-linkedin-square, .fa-facebook-square, .fa-instagram{
+  float: right;
+}
+.fa-linkedin-square:before, .fa-instagram:before,.fa-facebook-square:before{
+  font-size: 2rem;
+}
+
+.fa-envelope:before{
+font-size: 1rem;
+padding-left:1rem;
+}
+
+.fa-mobile:before{
+  font-size: 1.2em;
+}
+
+.fa-mobile{
+  margin-top: -0.2em;
+}
+
+.fa-mobile, .fa-envelope{
+  margin-right: -0.5em;
+  padding-top: 1.75em;
+}
+
+.col33#footer > div:nth-child(2){
+  text-align: center;
+}
+
+.col33#footer > div:nth-child(2) p {
+  margin-left:-0.7rem;
+  display: inline-block;
+}
+
+.col33#footer > div:nth-child(1) p{
+  margin-left:-0.5rem;
+   display: inline-block;
+ }
+
+ #project-1 >div{
+  padding-top: 4.3rem;
+  text-align: center;
+  padding-bottom: 4.3rem;
+}
+ #project-1 img{
+  width: 80%;
+ }
+
+ #project-2 img{
+   width:auto;
+   height: 90%;
+ }
+
+#project-2 >div{
+  padding-top: 4.3rem;
+  text-align: center;
+  padding-bottom: 4.3rem;
+}
+
+#project-3 img{
+  max-width: 27rem;
+}
+
+#project-3 >div{
+  padding-top: 4.3rem;
+  text-align: center;
+  padding-bottom: 4.3rem;
+}
+
+.text{
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%
+}
+
+.text a{
+  text-decoration: none;
+  color: black;
+}
